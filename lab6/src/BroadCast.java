@@ -10,13 +10,14 @@ public class BroadCast {
         int root = 0;
 
 
-        int N = 13;
+        int N = 1000;
         int threadsCount = size - 1;
         int k = N / threadsCount + (N % threadsCount != 0 ? 1 : 0);
 
         int[] a = Utils.getRandomArray(N);
         int[] b = Utils.getRandomArray(N);
 
+        long startTime = System.currentTimeMillis();
 
         MPI.COMM_WORLD.Bcast(a, 0, a.length, MPI.INT, 0);
         MPI.COMM_WORLD.Bcast(b, 0, a.length, MPI.INT, 0);
@@ -40,6 +41,8 @@ public class BroadCast {
         int[] globalResult = new int[1];
         MPI.COMM_WORLD.Reduce(result, 0, globalResult, 0, 1, MPI.INT, MPI.SUM, 0);
         if (rank == 0) {
+            long endTime = System.currentTimeMillis();
+            System.out.println("Work time: " + (endTime - startTime));
             System.out.println("Result: " + (globalResult[0] == Utils.vectorsMultiplication(a, b)));
         }
 

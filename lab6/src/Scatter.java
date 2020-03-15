@@ -12,7 +12,7 @@ public class Scatter {
         int size = MPI.COMM_WORLD.Size();
         int root = 0;
 
-        int N = 30;
+        int N = 1000;
         int k = N / size + (N % size != 0 ? 1 : 0);
 
         int[] a = Utils.getRandomArray(N);
@@ -23,6 +23,8 @@ public class Scatter {
 
         int[] recvA = new int[step];
         int[] recvB = new int[step];
+
+        long startTime = System.currentTimeMillis();
 
         MPI.COMM_WORLD.Scatter(a, 0, step, MPI.INT, recvA, 0, step, MPI.INT, root);
         MPI.COMM_WORLD.Scatter(b, 0, step, MPI.INT, recvB, 0, step, MPI.INT, root);
@@ -41,6 +43,8 @@ public class Scatter {
                 globalResult[0] += gather[i];
             }
             System.out.println("Result: " + (globalResult[0] == Utils.vectorsMultiplication(a, b)));
+            long endTime = System.currentTimeMillis();
+            System.out.println("Work time: " + (endTime - startTime));
         }
 
     }
