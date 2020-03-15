@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c097f17-8d60-49f1-8c9d-d505ab8ac4f0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z5LNnmbSgGHc3USPtTWmpQdq3p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.SynchronousBlocking">
+    <configuration name="Blocking" type="Application" factoryName="Application">
+      <envs>
+        <env name="MPJ_HOME" value="$PROJECT_DIR$/../../mpj" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="Blocking" />
+      <module name="lab5" />
+      <option name="VM_PARAMETERS" value="-jar $PROJECT_DIR$/../../mpj/lib/starter.jar -np 51" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BufferBlocking" type="Application" factoryName="Application">
+      <envs>
+        <env name="MPJ_HOME" value="$PROJECT_DIR$/../../mpj" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="BufferBlocking" />
+      <module name="lab5" />
+      <option name="VM_PARAMETERS" value="-jar $PROJECT_DIR$/../../mpj/lib/starter.jar -np 51" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Handle" type="Application" factoryName="Application">
+      <envs>
+        <env name="MPJ_HOME" value="$PROJECT_DIR$/../../mpj" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="Handle" />
+      <module name="lab5" />
+      <option name="VM_PARAMETERS" value="-jar $PROJECT_DIR$/../../mpj/lib/starter.jar -np 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotBlocking" type="Application" factoryName="Application">
+      <envs>
+        <env name="MPJ_HOME" value="$PROJECT_DIR$/../../mpj" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="NotBlocking" />
+      <module name="lab5" />
+      <option name="VM_PARAMETERS" value="-jar $PROJECT_DIR$/../../mpj/lib/starter.jar -np 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadyBlocking" type="Application" factoryName="Application">
+      <envs>
+        <env name="MPJ_HOME" value="$PROJECT_DIR$/../../mpj" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="ReadyBlocking" />
+      <module name="lab5" />
+      <option name="VM_PARAMETERS" value="-jar $PROJECT_DIR$/../../mpj/lib/starter.jar -np 51" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynchronousBlocking" type="Application" factoryName="Application">
+      <envs>
+        <env name="MPJ_HOME" value="$PROJECT_DIR$/../../mpj" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="SynchronousBlocking" />
+      <module name="lab5" />
+      <option name="VM_PARAMETERS" value="-jar $PROJECT_DIR$/../../mpj/lib/starter.jar -np 51" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Blocking" />
+      <item itemvalue="Application.Handle" />
+      <item itemvalue="Application.NotBlocking" />
+      <item itemvalue="Application.ReadyBlocking" />
+      <item itemvalue="Application.SynchronousBlocking" />
+      <item itemvalue="Application.BufferBlocking" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c097f17-8d60-49f1-8c9d-d505ab8ac4f0" name="Default Changelist" comment="" />
+      <created>1584123970844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584123970844</updated>
+      <workItem from="1584123974267" duration="202000" />
+      <workItem from="1584124231936" duration="1525000" />
+      <workItem from="1584192176903" duration="1993000" />
+      <workItem from="1584198067639" duration="169000" />
+      <workItem from="1584202677523" duration="976000" />
+      <workItem from="1584205414638" duration="1459000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584198106406">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1584198106406" />
+    <state width="2518" height="519" key="GridCell.Tab.0.bottom" timestamp="1584197388817">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="519" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1584197388817" />
+    <state width="2518" height="519" key="GridCell.Tab.0.center" timestamp="1584197388816">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="519" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1584197388816" />
+    <state width="2518" height="519" key="GridCell.Tab.0.left" timestamp="1584197388815">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="519" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1584197388815" />
+    <state width="2518" height="519" key="GridCell.Tab.0.right" timestamp="1584197388816">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="519" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1584197388816" />
+    <state width="2518" height="519" key="GridCell.Tab.1.bottom" timestamp="1584197388818">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="519" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1584197388818" />
+    <state width="2518" height="519" key="GridCell.Tab.1.center" timestamp="1584197388818">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="519" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1584197388818" />
+    <state width="2518" height="519" key="GridCell.Tab.1.left" timestamp="1584197388817">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="519" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1584197388817" />
+    <state width="2518" height="519" key="GridCell.Tab.1.right" timestamp="1584197388818">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="519" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1584197388818" />
+    <state x="768" y="301" key="SettingsEditor" timestamp="1584124049757">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="768" y="301" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1584124049757" />
+    <state x="946" y="477" width="667" height="486" key="find.popup" timestamp="1584205888769">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="946" y="477" width="667" height="486" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1584205888769" />
+    <state x="674" y="342" key="new project wizard" timestamp="1584197385477">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="674" y="342" key="new project wizard/0.0.2560.1440@0.0.2560.1440" timestamp="1584197385477" />
+  </component>
+</project>
